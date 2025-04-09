@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 400">
+  <!-- Main Kelp Stem -->
+  <path d="M100,400 C95,350 105,320 95,280 C85,240 105,200 95,160 C85,120 105,80 95,40 C92,20 100,0 100,0" 
+    fill="none" stroke="#2EC4B6" stroke-width="5" stroke-linecap="round"/>
+  
+  <!-- Left Leaves -->
+  <path d="M95,50 C80,45 70,50 65,60" fill="none" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round"/>
+  <path d="M95,80 C75,75 60,85 55,100" fill="none" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round"/>
+  <path d="M95,120 C80,115 70,120 65,130" fill="none" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round"/>
+  <path d="M95,160 C75,155 60,165 55,180" fill="none" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round"/>
+  <path d="M95,200 C80,195 70,200 65,210" fill="none" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round"/>
+  <path d="M95,240 C75,235 60,245 55,260" fill="none" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round"/>
+  <path d="M95,280 C80,275 70,280 65,290" fill="none" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round"/>
+  <path d="M95,320 C75,315 60,325 55,340" fill="none" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round"/>
+  <path d="M95,360 C80,355 70,360 65,370" fill="none" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Right Leaves -->
+  <path d="M105,30 C120,25 130,30 135,40" fill="none" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round"/>
+  <path d="M105,70 C125,65 140,75 145,90" fill="none" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round"/>
+  <path d="M105,110 C120,105 130,110 135,120" fill="none" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round"/>
+  <path d="M105,150 C125,145 140,155 145,170" fill="none" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round"/>
+  <path d="M105,190 C120,185 130,190 135,200" fill="none" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round"/>
+  <path d="M105,230 C125,225 140,235 145,250" fill="none" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round"/>
+  <path d="M105,270 C120,265 130,270 135,280" fill="none" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round"/>
+  <path d="M105,310 C125,305 140,315 145,330" fill="none" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round"/>
+  <path d="M105,350 C120,345 130,350 135,360" fill="none" stroke="#2EC4B6" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Small bubbles -->
+  <circle cx="85" cy="45" r="2" fill="#75E6DA" opacity="0.7"/>
+  <circle cx="115" cy="60" r="3" fill="#75E6DA" opacity="0.7"/>
+  <circle cx="90" cy="100" r="2" fill="#75E6DA" opacity="0.7"/>
+  <circle cx="110" cy="140" r="4" fill="#75E6DA" opacity="0.7"/>
+  <circle cx="80" cy="180" r="3" fill="#75E6DA" opacity="0.7"/>
+  <circle cx="120" cy="210" r="2" fill="#75E6DA" opacity="0.7"/>
+  <circle cx="85" cy="250" r="4" fill="#75E6DA" opacity="0.7"/>
+  <circle cx="115" cy="290" r="3" fill="#75E6DA" opacity="0.7"/>
+  <circle cx="90" cy="330" r="2" fill="#75E6DA" opacity="0.7"/>
+</svg>

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelpiebloom - Repurposing Oil Rigs for Sustainable Kelp Cultivation</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="assets/logo.svg" alt="Kelpiebloom Logo">
+                <h1>Kelpiebloom</h1>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#idea">Idea</a></li>
+                    <li><a href="#prototype">Prototype</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="home-section">
+            <div class="ocean-bg"></div>
+            <div class="home-content">
+                <div class="home-text">
+                    <h2>Waves of Change</h2>
+                    <p>Kelpiebloom utilizes abandoned offshore oil rigs to cultivate Kelp (a type of seaweed), which absorbs carbon dioxide, helping to reduce CO₂ emissions, enhance biodiversity, and promote scientific research.</p>
+                    <p>The harvested kelp can be used as a food source or biomass, when used as a food for cows it results in lower methane emissions from them. Oil companies have the opportunity to invest in this initiative, contributing to the reduction of their energy footprint.</p>
+                    <a href="#idea" class="btn-primary">Learn More</a>
+                </div>
+                <div class="home-image">
+                    <div class="rig-container">
+                        <img src="assets/rig.svg" alt="Oil rig with kelp cultivation" class="rig-illustration">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Idea Section -->
+        <section id="idea" class="idea-section">
+            <div class="section-header">
+                <h2>Our Idea</h2>
+                <p>A sustainable solution for abandoned oil rigs</p>
+            </div>
+            <div class="idea-steps">
+                <div class="step">
+                    <div class="step-image">
+                        <img src="assets/step1.svg" alt="Fertilizer-infused net" class="step-illustration">
+                    </div>
+                    <div class="step-text">
+                        <h3>Step 1: Fertilizer-Infused Net</h3>
+                        <p>We place the fertilizer-infused net around the lower portion of the oil rig structure.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-image">
+                        <img src="assets/step2.svg" alt="Equipment installation" class="step-illustration">
+                    </div>
+                    <div class="step-text">
+                        <h3>Step 2: System Installation</h3>
+                        <p>We install essential equipment to monitor and maintain the kelp farm:</p>
+                        <ul>
+                            <li>A 400W wind turbine harnesses wind energy to power the system</li>
+                            <li>An IP65-rated waterproof enclosure protects sensitive equipment, including batteries and data storage devices</li>
+                            <li>A Starlink provides high-speed satellite internet connectivity for real-time data transmission</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-image">
+                        <img src="assets/step3.svg" alt="Kelp growth" class="step-illustration">
+                    </div>
+                    <div class="step-text">
+                        <h3>Step 3: Cultivation Growth</h3>
+                        <p>In 4 years, the Kelp cultivation grows around 45 meters, producing 235 metric tons of kelp per oil rig.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Prototype Section -->
+        <section id="prototype" class="prototype-section">
+            <div class="section-header">
+                <h2>Prototype & Impact</h2>
+                <p>Technology and materials behind our system</p>
+            </div>
+            <div class="prototype-content">
+                <div class="prototype-text">
+                    <h3>Materials & Technology</h3>
+                    <div class="materials">
+                        <div class="material-item">
+                            <h4>Net Material</h4>
+                            <ul>
+                                <li>Marine-grade polyester</li>
+                                <li>Coated with polyurethane</li>
+                            </ul>
+                        </div>
+                        <div class="material-item">
+                            <h4>Fertilizer Formulation</h4>
+                            <div class="fertilizer-chart-container">
+                                <canvas id="fertilizerChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="impact-numbers">
+                        <div class="impact-stat">
+                            <h3>37.41 billion</h3>
+                            <p>metric tons CO₂ emissions worldwide (Statista, 2024)</p>
+                        </div>
+                        <div class="impact-stat">
+                            <h3>12,000+</h3>
+                            <p>Abandoned oil rigs globally with more being decommissioned yearly</p>
+                        </div>
+                        <div class="impact-stat">
+                            <h3>$24 million</h3>
+                            <p>Average cost to decommission a single oil rig</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="per-rig-impact">
+                    <h3>Per Oil Rig Impact</h3>
+                    <div class="impact-grid">
+                        <div class="impact-card">
+                            <i class="fas fa-water"></i>
+                            <h4>235</h4>
+                            <p>metric tons of kelp produced</p>
+                        </div>
+                        <div class="impact-card">
+                            <i class="fas fa-cloud"></i>
+                            <h4>400</h4>
+                            <p>metric tons of CO₂ captured</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research Section -->
+        <section id="research" class="research-section">
+            <div class="section-header">
+                <h2>Research</h2>
+                <p>Specialized kelp species for different environments</p>
+            </div>
+            <div class="kelp-types">
+                <div class="kelp-card">
+                    <div class="kelp-image cold">
+                        <img src="assets/kelp.svg" alt="Sugar Kelp illustration" class="kelp-illustration">
+                    </div>
+                    <div class="kelp-info">
+                        <h3>Sugar Kelp</h3>
+                        <h4>Saccharina latissima</h4>
+                        <p>Optimal for cold water environments</p>
+                        <ul>
+                            <li>Thrives in temperatures between 5-15°C</li>
+                            <li>High carbon sequestration capacity</li>
+                            <li>Native to North Atlantic regions</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="kelp-card">
+                    <div class="kelp-image warm">
+                        <img src="assets/kelp.svg" alt="Golden Kelp illustration" class="kelp-illustration warm">
+                    </div>
+                    <div class="kelp-info">
+                        <h3>Golden Kelp</h3>
+                        <h4>Ecklonia radiata</h4>
+                        <p>Optimal for warm water environments</p>
+                        <ul>
+                            <li>Adapts to temperatures between 15-23°C</li>
+                            <li>Resilient to changing ocean conditions</li>
+                            <li>Native to Australia and New Zealand waters</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="research-data">
+                <div class="data-visualization">
+                    <h3>Environmental Impact Potential</h3>
+                    <p>Global implementation could significantly reduce carbon footprint:</p>
+                    <canvas id="impactChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="section-header">
+                <h2>Our Team</h2>
+                <p>The minds behind Kelpiebloom</p>
+            </div>
+            <div class="team-container">
+                <div class="team-member">
+                    <div class="member-photo placeholder-image">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>Giasemoula</h3>
+                    <p>Environmental Engineer</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-photo placeholder-image">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>Hanu</h3>
+                    <p>Marine Biologist</p>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Get in Touch</h3>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="assets/logo.svg" alt="Kelpiebloom Logo">
+                <h3>Kelpiebloom</h3>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#idea">Idea</a></li>
+                    <li><a href="#prototype">Prototype</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 Kelpiebloom. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
