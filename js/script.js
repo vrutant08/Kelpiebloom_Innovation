@@ -69,23 +69,5 @@ document.addEventListener('DOMContentLoaded', function() {
         appearOnScroll.observe(element);
     });
     
-    // Contact Form Submission
-    const contactForm = document.getElementById('contactForm');
-    if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Get form values
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const message = document.getElementById('message').value;
-            
-            // Here you would typically send this data to a server
-            // For now, we'll just show an alert
-            alert(`Thank you for your message, ${name}! We'll get back to you at ${email} soon.`);
-            
-            // Reset form
-            contactForm.reset();
-        });
-    }
+    // Contact form submission has been removed as requested
 });
