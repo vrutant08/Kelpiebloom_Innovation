@@ -1,0 +1,52 @@
+Okay ai, i want you to help me create a prompt for an AGENTIC ai that i'm going to use to create a website for my girlriend about her project "Kelpiebloom" i will provide you the chats that we have discussed and images as well so you have more idea about what you need to do. 
+
+first of all I want the site showing the rig on the right side like zoomed and showing our idea and the basic information
+then moving down i want it explaining the system and how it works
+and how much our own idea costs being more down while showing our logo
+and last but not least our photo shown and in a text having our names
+wait lemme show u what i meanthe ingredients our net uses
+our fertilizer
+wait
+lemme show u step y stepi just want u putting the images and png
+nothign 3 d
+okay?
+
+This is the data of the website so far so you can get an idea of what to add in the prompt. 
+
+your giasemoula — 3:04 PM
+Kelpiebloom utilizes abandoned offshore oil rigs to cultivate Kelp (a type of seaweed), which absorbs carbon dioxide, helping to reduce CO2 emissions, enhance biodiversity, and promote scientific research. The harvested kelp can be used as a food source or biomass, when used as a food for cows it results in lower methane emissions from them. Oil companies have the opportunity to invest in this initiative, contributing to the reduction of their energy footprint.
+this is for the first page
+its okay
+i can do it
+u can leave it
+your hanu — 3:05 PM
+I'm not leaving it. I can do it.
+3 hours is enough
+your giasemoula — 3:09 PM
+1st We place the fertilizer-infused net.
+2nd We install: A 400W wind turbine harnesses wind energy to power the system
+An IP65-rated waterproof enclosure protects sensitive equipment, including batteries and data storage devices, from water ingress and harsh environmental conditions
+A Starlink provides high-speed, low-latency satellite internet connectivity, enabling real-time data transmission from remote offshore locations
+3rd In 4 years: The Kelp cultivation grows around 45 meters: 235 metric tons of kelp
+ this is for each image 
+on the second page
+Net material: 
+Marine-grade polyester
+Fertilizer Formulation Mix
+Coated with polyurethane                                                                                         These are the ingredients that our net is infused with
+ 
+Different types of Kelp for:
+Cold environments, Sugar Kelp 
+(Saccharina latissima)
+Warm environments, Golden 
+Kelp (Ecklonia radiata)
+this is for the research page
+37.41 billion metric tons CO₂ emissions
+(Statista, 2024)
+12.000 Abandoned oil rigs with many more being decommissioned yearly
+
+Algae and seaweed reduce CO₂ levels so our Kelp farms can be an alternative to decommissioning these platforms (cost of $24 million for one rig)
+
+Per oil rig:
+235 metric tons of kelp
+400 metric tons of CO₂
