@@ -490,19 +490,23 @@ nav {
 .team-container {
     display: flex;
     justify-content: center;
-    gap: var(--spacing-lg);
+    gap: var(--spacing-md);
     margin-bottom: var(--spacing-lg);
     flex-wrap: wrap;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .team-member {
     text-align: center;
-    width: 250px;
+    width: 200px;
+    margin-bottom: var(--spacing-md);
 }
 
 .member-photo {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     margin: 0 auto var(--spacing-sm);
     overflow: hidden;
@@ -514,7 +518,7 @@ nav {
 }
 
 .member-photo i {
-    font-size: 4rem;
+    font-size: 2.5rem;
 }
 
 .team-member h3 {

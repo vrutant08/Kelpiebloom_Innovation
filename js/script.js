@@ -28,50 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // Fertilizer Chart
-    const fertilizerCtx = document.getElementById('fertilizerChart').getContext('2d');
-    const fertilizerChart = new Chart(fertilizerCtx, {
-        type: 'doughnut',
-        data: {
-            labels: ['Nitrogen (N)', 'Phosphorus (P)', 'Potassium (K)', 'Magnesium (Mg)', 'Calcium (Ca)', 'Iron (Fe)', 'Trace Minerals'],
-            datasets: [{
-                data: [5, 2, 3, 1, 1, 0.1, 0.1],
-                backgroundColor: [
-                    '#3366CC', // Blue for Nitrogen
-                    '#FFD700', // Yellow for Phosphorus
-                    '#9370DB', // Purple for Potassium
-                    '#C0C0C0', // Silver for Magnesium
-                    '#DC143C', // Red for Calcium
-                    '#90EE90', // Light Green for Iron
-                    '#87CEEB'  // Sky Blue for Trace Minerals
-                ],
-                borderWidth: 1
-            }]
-        },
-        options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: {
-                legend: {
-                    position: 'right',
-                    labels: {
-                        color: '#05445E',
-                        font: {
-                            family: "'Raleway', sans-serif",
-                            size: 12
-                        }
-                    }
-                },
-                tooltip: {
-                    callbacks: {
-                        label: function(context) {
-                            return `${context.label}: ${context.raw}%`;
-                        }
-                    }
-                }
-            }
-        }
-    });
+    // Fertilizer Chart is now an image, no need for chart.js here
     
     // Environmental Impact Chart
     const impactCtx = document.getElementById('impactChart').getContext('2d');
