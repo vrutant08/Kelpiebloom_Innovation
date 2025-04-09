@@ -4,14 +4,14 @@
 /* Reset and base styles */
 :root {
     /* Ocean color palette */
-    --deep-ocean: #05445E;
-    --ocean-blue: #0C6291;
-    --medium-blue: #189AB4;
-    --light-blue: #75E6DA;
-    --surface-blue: #D4F1F9;
+    --deep-ocean: #87CEEB; /* Changed to sky blue */
+    --ocean-blue: #B0E0E6; /* Changed to powder blue */
+    --medium-blue: #ADD8E6; /* Changed to light blue */
+    --light-blue: #E0FFFF; /* Changed to light cyan */
+    --surface-blue: #F0F8FF; /* Changed to alice blue */
     --white: #ffffff;
     --text-dark: #333333;
-    --accent: #2EC4B6;
+    --accent: #B0E0E6;
     
     /* Font variables */
     --heading-font: 'Montserrat', sans-serif;
