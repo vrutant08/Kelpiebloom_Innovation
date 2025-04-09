@@ -12,18 +12,18 @@
     --white: #ffffff;
     --text-dark: #333333;
     --accent: #B0E0E6;
-    
+
     /* Font variables */
     --heading-font: 'Montserrat', sans-serif;
     --body-font: 'Raleway', sans-serif;
-    
+
     /* Spacing */
     --spacing-xs: 0.5rem;
     --spacing-sm: 1rem;
     --spacing-md: 2rem;
     --spacing-lg: 3rem;
     --spacing-xl: 5rem;
-    
+
     /* Border radius */
     --border-radius-sm: 0.25rem;
     --border-radius-md: 0.5rem;
@@ -742,6 +742,12 @@ footer {
 
     .footer-links ul {
         justify-content: center;
+    }
+    main {
+        overflow-x: hidden;
+        overflow-y: auto;
+        height: 100%;
+        padding-top: 100px;
     }
 }
 
