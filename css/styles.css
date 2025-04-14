@@ -357,13 +357,14 @@ nav {
 }
 
 .impact-stat {
-    flex: 1;
-    min-width: 250px;
+    flex: 0 1 200px;
+    min-width: 200px;
     text-align: center;
-    padding: var(--spacing-md);
+    padding: var(--spacing-sm);
     background-color: var(--deep-ocean);
     color: var(--white);
     border-radius: var(--border-radius-md);
+    margin: 0.5rem;
 }
 
 .impact-stat h3 {
