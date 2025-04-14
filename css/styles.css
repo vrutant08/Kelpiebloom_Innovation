@@ -404,6 +404,55 @@ nav {
     margin-bottom: var(--spacing-xs);
 }
 
+.impact-comparison {
+    margin-top: var(--spacing-xl);
+    text-align: center;
+}
+
+.impact-comparison h3 {
+    margin-bottom: var(--spacing-lg);
+    color: var(--deep-ocean);
+}
+
+.comparison-grid {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-md);
+    flex-wrap: wrap;
+    margin-top: var(--spacing-md);
+}
+
+.comparison-card {
+    background-color: var(--white);
+    padding: var(--spacing-md);
+    border-radius: var(--border-radius-md);
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.comparison-card:hover {
+    transform: translateY(-5px);
+}
+
+.comparison-card i {
+    font-size: 2.5rem;
+    margin-bottom: var(--spacing-sm);
+    color: var(--deep-ocean);
+}
+
+.comparison-card h4 {
+    color: var(--deep-ocean);
+    font-size: 1.2rem;
+    margin-bottom: var(--spacing-xs);
+}
+
+.comparison-card p {
+    color: var(--text-dark);
+    font-size: 0.9rem;
+}
+
 /* Research Section */
 .research-section {
     background-color: var(--white);
